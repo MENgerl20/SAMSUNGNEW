@@ -97,6 +97,10 @@ android.minapi = 21
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
 
+# (bool) Accept SDK license agreements automatically
+# android.accept_sdk_license = False
+android.accept_sdk_license = True
+
 # (str) Android logcat filters to use
 #android.logcat_filters = *:S python:D
 
